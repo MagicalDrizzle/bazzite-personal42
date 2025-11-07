@@ -62,7 +62,8 @@ dnf5 install -y gparted gsmartcontrol btdu btrfs-heatmap \
                 android-tools java-21-openjdk usbview podman-compose \
                 cascadia-fonts-all coolercontrol playerctl cmus \
                 kitty konsole ksystemlog byobu golly ucblogo ddccontrol ddccontrol-gtk \
-                rmlint cava vkmark iotop powertop
+                rmlint cava vkmark iotop powertop \
+                plasma-workspace-x11
 dnf5 install -y --setopt=install_weak_deps=False plasma-discover \
                         plasma-discover-flatpak plasma-discover-kns
 # Use a COPR Example:
