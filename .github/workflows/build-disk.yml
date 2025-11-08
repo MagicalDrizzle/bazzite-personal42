@@ -22,6 +22,11 @@ on:
       - './disk_config/disk.toml'
       - './disk_config/iso.toml'
       - './.github/workflows/build-disk.yml'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/README.md'
 
 env:
   IMAGE_NAME: ${{ github.event.repository.name }} # output of build.yml, keep in sync
